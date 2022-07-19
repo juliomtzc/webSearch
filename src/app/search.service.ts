@@ -11,7 +11,7 @@ import {catchError} from "rxjs/operators";
 export class SearchService {
 
  post: any;
-  private url = 'https://c1webapiapp120220704011313.azurewebsites.net/api/products/11';
+  private url = 'https://c1webapiapp120220704011313.azurewebsites.net/api/products';
 
   constructor(private http: HttpClient) {}
 
